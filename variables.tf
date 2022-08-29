@@ -1,13 +1,13 @@
 variable "location" {
   type        = string
   description = "Default resources location."
-  default     = ""
+  default     = "East US"
 }
 
 variable "resource_group_name" {
   type        = string
   description = "Default Resource Group."
-  default     = ""
+  default     = "rg-network-eastus-001"
 }
 
 variable "environment" {
