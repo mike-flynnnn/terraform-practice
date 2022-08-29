@@ -9,8 +9,13 @@ terraform {
     azurerm = {
       source  = "azurerm"
       version = "~>3.0"
+
     }
   }
+}
+
+provider "azurerm" {
+  features {}
 }
 
 resource "azurerm_resource_group" "rg" {
