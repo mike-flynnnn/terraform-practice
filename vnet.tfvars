@@ -38,6 +38,7 @@ virtual_networks = {
 # What do I create below to activate => resource "azurerm_network_security_group" "this" module?
 network_security_group = {
   name = "NetworkSecurityGroup"
+  location = "eastus"
   # security_rule = {
   #   name                       = "test123"
   #   priority                   = 100
